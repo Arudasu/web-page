@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    margin: 0px;
+    caret-color: transparent;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.header p{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px;
+    
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    letter-spacing: 1px;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.top{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 98px;
+    padding-bottom: 158px;
+    gap: 20%;
+}
+
+.top .content{
+    max-width: 20%;
+}
+
+.top .placeholder{
+    background-color: gray;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.top p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 8px;
+}
+
+h3{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box div{
+    border: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box p{
+    width: 150px;
+}
+
+/*{
+    border: 1px solid;
+}
